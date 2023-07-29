@@ -68,6 +68,7 @@ my_plant.solve(mode='design')
 my_plant.print_results()
 
 print(f'COP = {abs(co.Q.val) / cp.P.val}')
+print("end")
 
 
 # print(PropsSI("T","P",10000,"Q",0,"Water"))
